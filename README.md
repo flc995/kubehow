@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/flc995/kubehow/main/media/kubehow-logo.png" alt="Kubehow" />
 
-# Kubernets YAMLs cheat sheet on your terminal
+# Kubernetes cheat sheet on your terminal
 [![GitHub issues](https://img.shields.io/github/issues/flc995/kubehow)](https://github.com/flc995/kubehow/issues)
 [![GitHub forks](https://img.shields.io/github/forks/flc995/kubehow)](https://github.com/flc995/kubehow/network)
 [![GitHub Repo stars](https://img.shields.io/github/stars/flc995/kubehow)](https://github.com/flc995/kubehow/stargazers)
@@ -10,6 +10,7 @@ Bash script to print on your terminal examples of basic Kubernetes YAMLs
 
 ## How to run
 Place `kubehow.sh` in your bash scripts folder and create an alias for `kubehow` so you can run the script by simply writing `kubehow`.
+
 Example
 ```
 kubehow ingress
@@ -35,6 +36,8 @@ spec:
             port:
               number: 80
 ```
+
+Run  `kubehow -h` to get the supported k8s artifacts.
 
 ## Contributors Wall
 <a href="https://github.com/flc995/kubehow/graphs/contributors">
